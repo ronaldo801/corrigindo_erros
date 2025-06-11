@@ -37,3 +37,17 @@ testea
 =======
 teste
 >>>>>>> 0bf636d65f44ed15a87fa52f5471182da8348532
+
+git reset:
+Usado para "voltar atrás" em commits localmente. Ele pode modificar o histórico do seu repositório local, apagando commits ou movendo o ponteiro do HEAD para um commit anterior.
+
+Exemplo: Você cometeu algo errado e ainda não enviou (push) para o repositório remoto. Pode usar git reset para apagar ou modificar esses commits localmente.
+
+Atenção: Se você já enviou os commits para o remoto e outras pessoas podem ter baixado, usar reset e reescrever o histórico pode causar confusão.
+
+git revert:
+Cria um novo commit que desfaz as alterações de um commit anterior sem apagar o histórico.
+
+Exemplo: Se você já enviou (push) um commit com um erro e precisa desfazê-lo de forma segura, use git revert. Assim, o histórico fica intacto, e a reversão é clara para todos.
+
+Ideal para corrigir erros em commits já compartilhados.
