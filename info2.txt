@@ -32,4 +32,8 @@ git revert
 Cria um novo commit que desfaz as alterações de um commit anterior, sem alterar o histórico.
 Ex: git revert <id-do-commit>
 
+<<<<<<< HEAD
 testea
+=======
+teste
+>>>>>>> 0bf636d65f44ed15a87fa52f5471182da8348532
